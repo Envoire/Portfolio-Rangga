@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: century;
+}
+button {
+  border: 2px black;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #044475;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10;
+}
+/* End Navbar */
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #acd0ee;
+}
+
+#gallery {
+  background-color: #acd0ee;
+}
+#contact {
+  display: flex;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#contact {
+  list-style: none;
+  margin: 10px 30px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.facebook {
+  padding: 20px;
+  font-weight: bold;
+}
+.linkedin {
+  padding: 20px;
+  font-weight: bold;
+}
+.whatsapp {
+  padding: 20px;
+  font-weight: bold;
+}
+.email {
+  padding: 20px;
+  font-weight: bold;
+}
